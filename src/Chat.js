@@ -23,7 +23,7 @@ const Chat = () => {
       name: user.displayName,
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
     });
-    console.log("You fokking typed ", input);
+    console.log("You  typed ", input);
 
     setInput("");
   };
